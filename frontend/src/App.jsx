@@ -88,7 +88,7 @@ function App() {
 
   return (
     <div className="container">
-      <audio ref={audioRef} loop src="/cat_party.mp3" />
+      <audio ref={audioRef} loop src="/celebration.mp3" />
       
       <button className="music-btn" onClick={toggleMusic}>
         {isPlaying ? '⏸ Pause' : '▶ Play Music'}
